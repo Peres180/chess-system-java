@@ -5,10 +5,6 @@ public class Position {
 	private int row;
 	private int collum;
 	
-	public Position() {
-		
-	}
-
 	public Position(int row, int collum) {
 		this.row = row;
 		this.collum = collum;

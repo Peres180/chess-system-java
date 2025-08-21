@@ -1,21 +1,16 @@
-package boargame;
+package boardgame;
 
-public class Piece  {
-	
+public class Piece {
+
 	protected Position position;
 	private Board board;
 	
-	public Piece(Position postion) {
-		this.position = postion;
+	public Piece(Board board) {
+		this.board = board;
 		position = null;
 	}
 
 	protected Board getBoard() {
 		return board;
 	}
-
-	
-	
-	
-
 }
